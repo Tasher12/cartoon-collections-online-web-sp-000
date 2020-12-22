@@ -11,9 +11,9 @@ end
 
 def long_planeteer_call(short_words)
   if short_words > 4
-    false 
-  else
     true 
+  else
+    false 
   end 
 end
 
