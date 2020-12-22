@@ -14,7 +14,6 @@ def long_planeteer_calls(words)
     return true 
   words.any? {|word_length| word_length.length <= 4}
     return false 
-  end 
 end
 
 def find_the_cheese# code an argument here
