@@ -11,7 +11,7 @@ end
 
 def long_planeteer_call(words)
   words.select do |num|
-    if num.length >= 4 
+    if num.length > 4 
       return true 
     else
       return false 
