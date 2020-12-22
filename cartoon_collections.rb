@@ -11,12 +11,12 @@ end
 
 def long_planeteer_call(short_words)
   i = 4
-  short_words.length do |num|
-    if num > i 
-    true 
-  else
-    false 
-  end 
+  short_words.each do |num|
+    if num.length > i 
+      true 
+    else
+      false 
+     end 
 end
 
 def find_the_cheese# code an argument here
