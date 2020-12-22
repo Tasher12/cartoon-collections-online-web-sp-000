@@ -11,7 +11,7 @@ end
 
 def long_planeteer_call(words)
   i = 4
-  words.each do |num|
+  long_planeteer_call.each do |num|
     if num.length > i 
       return true 
     else
