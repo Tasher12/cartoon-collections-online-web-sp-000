@@ -9,7 +9,7 @@ def summon_captain_planet(planeteer)
   planeteer.map {|call| call.capitalize + "!"}
 end
 
-def long_planeteer_call(words)
+def long_planeteer_calls(words)
   i = 4
   words.each do |num|
     if num.length > i 
