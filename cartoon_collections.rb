@@ -12,7 +12,7 @@ end
 def long_planeteer_calls(words)
   words.any? {|word_length| word_length.length > 4}
     return true 
-  words.any? {|word_length| word_length.length <= 4}
+  words.all? {|word_length| word_length.length <= 4}
     return false 
 end
 
