@@ -17,7 +17,6 @@ def long_planeteer_call(short_words)
     else
       false 
     end 
-  short_words
   end 
 end
 
