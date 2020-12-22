@@ -10,7 +10,7 @@ def summon_captain_planet(planeteer)
 end
 
 def long_planeteer_call(words)
-  words.select do |num|
+  words.each do |num|
     if num.length > 4 
       return true 
     else
